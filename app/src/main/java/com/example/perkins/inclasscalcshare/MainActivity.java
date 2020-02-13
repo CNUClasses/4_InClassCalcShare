@@ -38,8 +38,8 @@ public class MainActivity extends Activity {
     }
 
     private void getVals(SharedPreferences myPrefs) {
-        numb1 = myPrefs.getInt(Constants.NUMB1, -1);
-        numb2 = myPrefs.getInt(Constants.NUMB2,-1);
+        numb1 = myPrefs.getInt(Constants.NUMB1, 0);
+        numb2 = myPrefs.getInt(Constants.NUMB2,0);
     }
 
     @Override
